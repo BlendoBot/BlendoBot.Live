@@ -1,7 +1,8 @@
 {
   "profiles": {
     "BlendoBot.Live": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
     }
   }
 }

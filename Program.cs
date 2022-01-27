@@ -1,10 +1,8 @@
-﻿using System;
+﻿namespace BlendoBot.Live;
 
-namespace BlendoBot.Live {
-	public class Program {
-		public static void Main(string[] args) {
-			var blendobot = new BlendoBot("config.cfg");
-			blendobot.Start(args).ConfigureAwait(false).GetAwaiter().GetResult();
-		}
+public class Program {
+	public static void Main(string[] args) {
+		Frontend.BlendoBot blendobot = new("config.cfg");
+		blendobot.Start(args).ConfigureAwait(false).GetAwaiter().GetResult();
 	}
 }
