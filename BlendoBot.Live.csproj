@@ -14,13 +14,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BlendoBot.Frontend" Version="1.1.2" />
+    <PackageReference Include="BlendoBot.Frontend" Version="1.1.3" />
     <PackageReference Include="BlendoBot.Module.AutoCorrect" Version="1.1.0" />
     <PackageReference Include="BlendoBot.Module.CurrencyConverter" Version="1.1.0" />
     <PackageReference Include="BlendoBot.Module.DecimalSpiral" Version="1.1.0" />
     <PackageReference Include="BlendoBot.Module.MrPing" Version="1.1.0" />
-    <PackageReference Include="BlendoBot.Module.RegionalIndicator" Version="1.1.0" />
-    <PackageReference Include="BlendoBot.Module.RemindMe" Version="1.1.1" />
+    <PackageReference Include="BlendoBot.Module.RegionalIndicator" Version="1.1.1" />
+    <PackageReference Include="BlendoBot.Module.RemindMe" Version="1.1.2" />
     <PackageReference Include="BlendoBot.Module.RetroAchievements" Version="1.1.0" />
     <PackageReference Include="BlendoBot.Module.Roll" Version="1.1.0" />
     <PackageReference Include="BlendoBot.Module.UserTimeZone" Version="1.1.0" />
