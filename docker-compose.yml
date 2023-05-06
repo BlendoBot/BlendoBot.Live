@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  blendobot:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: blendobot
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+      - ./log:/app/log
+      - ./config.cfg:/app/config.cfg
